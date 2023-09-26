@@ -144,8 +144,13 @@ figcaption{
 }
 footer{
     background-color: #1f2937;
+    padding: 30px
 }
 .footerstuff{
-    
+    color: #f9faf8;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
