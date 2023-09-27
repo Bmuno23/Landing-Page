@@ -9,13 +9,19 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 15%;
-    background-color: #1f2937;
+    background-color: #EBE7DB;
     flex-wrap: wrap;
 }
-.HeaderLogo{
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 800;
+.rlu_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #2c2c50;
+    font-size: 20px;
+}
+.HeaderLogo img{
+    max-width: 100px;
 }
 .navbar ul{
     display: flex;
@@ -23,12 +29,22 @@
 .navbar ul li{
     list-style-type: none;
     padding: 0 10px;
-    color: #c2c3c6;
     font-size: 18px;
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #e5e7eb;
+    color: #2c2c50;
+}
+.navbar ul li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width:0;
+    background: #2c2c50;
+    transition:all .5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
 }
 .thiswebsite{
     display: flex;
